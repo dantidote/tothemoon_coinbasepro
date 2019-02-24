@@ -1,0 +1,11 @@
+[DEFAULT]
+bank_acct_id = d401bdca-d2b6-485d-87c9-f4fdcbf9e2d6
+buy_amount_btcusd = 10          # amount of BTC to buy in USD
+buy_amount_ethusd = 1           # amount of ETH to buy in USD
+fund_usd_threshold = 120        # if USD balance is less than this, it will trigger a deposit from your bank account
+fund_usd_amount = 100           # Amount in USD to refill
+btc_withdrawal_threshold = 0.05
+btc_withdrawal_address = 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
+recent_deposit_max = 500
+logfile = tothemoon.log
+loglevel = DEBUG
